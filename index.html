@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>jsCalculator by Useful Programmer</title>
+    <title>jsCalculator</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -15,7 +15,8 @@
   </head>
   <body>
 
-    <div class="container-fluid my-5">
+    <div class="container-sm my-5 px-5">
+      <div class="text-center text-decoration-underline">JS Calculator</div>
 
       <div class="row text-center">
         <div class="col-10">
@@ -31,7 +32,7 @@
           <a id="zero" class="btn btn-block btn-primary text-white" onclick="updateDisplay(0)">0</a>
           <a id="one" class="btn btn-block btn-primary text-white" onclick="updateDisplay(1)">1</a>
           <a id="two" class="btn btn-block btn-primary text-white" onclick="updateDisplay(2)">2</a>
-          <a id="equals" class="btn btn-block btn-primary text-white" onclick="updateDisplay('equals')">=</a>
+          <a id="equals" class="btn btn-block btn-secondary text-white" onclick="updateDisplay('equals')">=</a>
         </div>
         <div class="col-4">
           <a id="three" class="btn btn-block btn-primary text-white" onclick="updateDisplay(3)">3</a>
